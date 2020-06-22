@@ -1,0 +1,28 @@
+Package: fars
+Type: Package
+Title: The Fatality Analysis Reporting System Extraction using the National Highway Traffic Safety dataset
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Borui",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "liborui@bu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package using the National Highway Traffic Safety dataset of 2013-2015 to summary the Fatality Analysis
+             and map the distribution of states.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: dplyr,
+         maps,
+         readr,
+         tidyr
+Suggests: knitr,
+          rmarkdown,
+          testthat,
+          utils
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
