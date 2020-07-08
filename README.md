@@ -10,7 +10,7 @@ package: fars github:https://github.com/Beryli-122/fars/tree/master
 ## Data source
 The US National Highway Traffic Safety Administration's [Fatality Analysis Reporting System](https://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)).
 ## Travis
-https://travis-ci.com/Beryli-122/fars_package.svg?branch=master
+[![](https://travis-ci.org/Beryli-122/fars_package.svg?branch=master)](https://travis-ci.org/Beryli-122/fars_package)
 ## Reference
 [Putting your R package on GitHub](https://kbroman.org/pkg_primer/pages/github.html)<br>
 [Making Your First R Package](https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html)<br>
